@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-cnbwp
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Typeset working papers of the Czech National Bank
 Group:		Publishing
