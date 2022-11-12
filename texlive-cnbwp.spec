@@ -5,8 +5,8 @@ Summary:	Typeset working papers of the Czech National Bank
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cnbwp
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cnbwp.r32550.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cnbwp.doc.r32550.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cnbwp.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cnbwp.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
