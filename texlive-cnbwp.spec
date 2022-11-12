@@ -1,18 +1,12 @@
-# revision 32550
-# category Package
-# catalog-ctan /macros/latex/contrib/cnbwp
-# catalog-date 2014-01-02 10:00:56 +0100
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-cnbwp
-Version:	20190228
+Version:	32550
 Release:	1
 Summary:	Typeset working papers of the Czech National Bank
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cnbwp
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cnbwp.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cnbwp.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cnbwp.r32550.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cnbwp.doc.r32550.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +18,12 @@ Czech National Bank (WP CNB). The package was developed for CNB
 but it is also intended for authors from outside CNB.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -57,7 +51,7 @@ but it is also intended for authors from outside CNB.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
