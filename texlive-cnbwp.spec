@@ -1,6 +1,6 @@
 Name:		texlive-cnbwp
-Version:	32550
-Release:	2
+Version:	69931
+Release:	1
 Summary:	Typeset working papers of the Czech National Bank
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cnbwp
