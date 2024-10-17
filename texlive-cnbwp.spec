@@ -3,7 +3,7 @@ Version:	69931
 Release:	1
 Summary:	Typeset working papers of the Czech National Bank
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cnbwp
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/cnbwp
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cnbwp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cnbwp.doc.r%{version}.tar.xz
